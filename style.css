@@ -1,0 +1,83 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header */
+  header {
+    background-color: #eee;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  header nav ul {
+    display: flex;
+  }
+  
+  header nav li {
+    margin-right: 20px;
+  }
+  
+  header nav li:last-child {
+    margin-right: 0;
+  }
+  
+  header nav a {
+    font-weight: bold;
+  }
+  
+  /* Main */
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  ul li h3 {
+    margin-top: 0;
+  }
+  
+  /* Contact form */
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  button[type="submit"] {
+    background-color: #008CBA;
+   
+  }  
